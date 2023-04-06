@@ -3,10 +3,10 @@
 Projet de télémetrie en lien avec le projet CoHoMa.
 
 # Description:
-Les communications entre un robot et son téléopérateur utilisent un réseau wifi maillé (mesh 802.11s). Bien que très robuste, la portée de ce réseau n’est pas infinie (maximum 50m par balise), et une perte de connexion peut survenir même a plus faible distance, notamment a cause du relief ou de la vegetation.
-L’objectif est donc de mettre en place un r ́eseau secondaire, de plus forte port ́ee mais de d ́ebit réduit, permettant d’assurer:
+Les communications entre un robot et son téléopérateur utilisent un réseau wifi maillé (mesh 802.11s). Bien que très robuste, la portée de ce réseau n’est pas infinie (maximum 50m par balise), et une perte de connexion peut survenir même à plus faible distance, notamment à cause du relief ou de la végétation.
+L’objectif est donc de mettre en place un réseau secondaire, de plus forte portée mais de débit réduit, permettant d’assurer:
 
--> la continuit ́e de la teleoperation du robot en cas de perte de la liaison wifi  
+-> la continuité de la téléopération du robot en cas de perte de la liaison wifi  
 -> l’arrêt d’urgence des moteurs a la demande ou en cas de perte totale de connexion  
 -> la remontée de la position GPS du robot (télémetrie)  
 -> Le tout pourra être opéré sur batterie.  
@@ -22,8 +22,8 @@ Ce réseau secondaire va utiliser les composants NRF24L01 de Nordic Semiconducto
 
 
 # Les délais (à respecter les gens svp!!!):
--> 17/04 : GANTT (format excel) + sp ́ecifications techniques/diagramme d’architecture (format pdf)  
--> 09/05 : Auto-evaluation des competences  
+-> 17/04 : GANTT (format excel) + spécifications techniques/diagramme d’architecture (format pdf)  
+-> 09/05 : Auto-évaluation des compétences  
 -> 06/06 : Livrable final et Soutenance finale  
 
 # Les tâches:
