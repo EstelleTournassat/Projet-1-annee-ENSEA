@@ -1,4 +1,4 @@
-## Projet-1-ann-e-ENSEA
+## Projet-1-année-ENSEA
 
 Projet de télémetrie en lien avec le projet CoHoMa.
 
