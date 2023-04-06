@@ -27,7 +27,7 @@ Ce réseau secondaire va utiliser les composants NRF24L01 de Nordic Semiconducto
 -> 06/06 : Livrable final et Soutenance finale  
 
 # Les tâches:
--> Documentation sur le système de réseau nrf24 \n
+-> Documentation sur le système de réseau nrf24  
 
 
 # Répartition des tâches:
