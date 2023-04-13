@@ -17,6 +17,6 @@ Autres capteursavec infos plus complexes avec la Rasberry
 
 PCB pour relier carte entre elle  
 Batterie  
-Boitier pour mettre le tout  
+Boitier pour mettre le tout --> peut le faire en cloud sur onshape
 
 Trames GPS à faire plus tard
