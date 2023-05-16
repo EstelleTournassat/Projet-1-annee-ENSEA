@@ -8,4 +8,19 @@ http://electroniqueamateur.blogspot.com/2019/11/communication-nrf24l01-avec-cart
 
 # Connection Rasberry et STM32
 https://www.instructables.com/Wireless-Programming-and-Debugging-With-STM32-and-/
-https://remotemcu.com/news/raspberry-pi-video-tutorial/
+https://remotemcu.com/news/raspberry-pi-video-tutorial/  
+https://www.framboise314.fr/faire-dialoguer-un-raspberry-et-un-arduino-via-nrf24l01/  
+
+# Raspberry pi
+programme recepteur et emetteur rasberry  
+http://electroniqueamateur.blogspot.com/2017/02/communication-entre-raspberry-pi-et.html  
+allumer une led  
+https://www.raspberryme.com/allumer-une-led-avec-les-broches-gpio-de-votre-raspberry-pi/  
+
+# connexion ssh et rasberry pi
+https://raspberry-lab.fr/Debuter-sur-Raspberry-Francais/Connexion-Bureau-a-distance-Raspberry-Francais/  
+https://itsfoss.com/create-swap-file-linux/  
+
+
+# Installer library et example raspberry:
+https://nrf24.github.io/RF24/md_docs_using_cmake.html  
