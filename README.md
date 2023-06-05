@@ -46,4 +46,6 @@ Cf GANTT
 
 -> "GANTT.md" : GANTT prévisionnel et GANTT réel
 
+-> "Codes_Communication.STM32.md" : codes communication et fiches PIN de la STM32 et du NRF24
+
 
