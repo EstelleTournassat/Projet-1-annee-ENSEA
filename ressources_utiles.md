@@ -1,6 +1,5 @@
 # NFR24L01
 
-https://passionelectronique.fr/tutorial-nrf24l01/
 https://www.nordicsemi.com/products/nrf24-series
 
 
