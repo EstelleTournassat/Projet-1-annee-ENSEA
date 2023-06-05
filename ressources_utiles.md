@@ -6,7 +6,16 @@ https://www.nordicsemi.com/products/nrf24-series
 Tuto bien fait pour récupérer et émeetre des message avec une stm32 et module NFR24L01:
 http://electroniqueamateur.blogspot.com/2019/11/communication-nrf24l01-avec-cartes-stm32.html
 
-# Connection Rasberry et STM32
+# Connexion STM32 et STM32
+https://github.com/MYaqoobEmbedded/ST...
+vidéo : https://youtu.be/O2dg2Eo7vo8
+https://www.st.com/en/microcontrollers-microprocessors/stm32l412kb.html
+
+https://github.com/MYaqoobEmbedded/STM32-Tutorials/tree/master/Tutorial%2024%20-%20NRF24L01%20Radio%20Transceiver
+
+Vidéo bouton stop avec code dans description : https://www.youtube.com/watch?v=2V2h64cduzE 
+
+# Connexion Rasberry et STM32
 https://www.instructables.com/Wireless-Programming-and-Debugging-With-STM32-and-/
 https://remotemcu.com/news/raspberry-pi-video-tutorial/  
 https://www.framboise314.fr/faire-dialoguer-un-raspberry-et-un-arduino-via-nrf24l01/  
