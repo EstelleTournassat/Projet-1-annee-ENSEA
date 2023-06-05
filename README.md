@@ -32,3 +32,4 @@ Ce réseau secondaire va utiliser les composants NRF24L01 de Nordic Semiconducto
 
 # Répartition des tâches :
 Cf GANTT 
+Nouveau Gant
