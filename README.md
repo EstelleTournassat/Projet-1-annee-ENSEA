@@ -37,7 +37,9 @@ Cf GANTT
 
 # Description documents du repository :
 -> "datasheet_NRF24L01.PDF" : Datasheet complète du module NRF24 utilisé
+
 -> "datasheet_NUCLEOL412KB" : Datasheet complète de la carte NUCLEOL412KB utilisée (STM32)
+
 -> "boutonstop.cpp" : code Bouton Stop pour la raspberry pi 
 
 
