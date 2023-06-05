@@ -26,10 +26,16 @@ Ce réseau secondaire va utiliser les composants NRF24L01 de Nordic Semiconducto
 -> 09/05 : Auto-évaluation des compétences  
 -> 06/06 : Livrable final et Soutenance finale  
 
-# Les tâches :
--> Documentation sur le système de réseau nrf24  
+# Les tâches principales:
+-> Réaliser de deux PCB (1 pour la STM32 et le module NRF24, 1 pour la raspberry pi et le module NRF24)
+-> Faire communiquer deux STM32 entre elles
+-> Faire communiquer deux Raspberry pi entre elles 
 
 
 # Répartition des tâches :
 Cf GANTT 
-Nouveau Gant
+
+# Description documents du repository :
+-> "datasheet_NRF24L01.PDF" : Datasheet complète du module NRF24 utilisé
+-> "datasheet_NUCLEOL412KB" : Datasheet complète de la carte NUCLEOL412KB utilisée (STM32)
+
