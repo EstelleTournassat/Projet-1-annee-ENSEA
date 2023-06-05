@@ -1,6 +1,6 @@
 # NFR24L01
 
-https://www.nordicsemi.com/products/nrf24-series
+- Quelques informations nRF24 Series : https://www.nordicsemi.com/products/nrf24-series
 
 
 # Connexion STM32 et STM32
