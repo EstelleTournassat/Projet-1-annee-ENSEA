@@ -3,8 +3,6 @@
 https://passionelectronique.fr/tutorial-nrf24l01/
 https://www.nordicsemi.com/products/nrf24-series
 
-Tuto bien fait pour récupérer et émeetre des message avec une stm32 et module NFR24L01:
-http://electroniqueamateur.blogspot.com/2019/11/communication-nrf24l01-avec-cartes-stm32.html
 
 # Connexion STM32 et STM32
 -Tutoriel communication entre deux STM32 RX/TX : https://youtu.be/O2dg2Eo7vo8
