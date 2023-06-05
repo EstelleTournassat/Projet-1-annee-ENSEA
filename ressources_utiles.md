@@ -7,13 +7,11 @@ Tuto bien fait pour récupérer et émeetre des message avec une stm32 et module
 http://electroniqueamateur.blogspot.com/2019/11/communication-nrf24l01-avec-cartes-stm32.html
 
 # Connexion STM32 et STM32
-https://github.com/MYaqoobEmbedded/ST...
-vidéo : https://youtu.be/O2dg2Eo7vo8
-https://www.st.com/en/microcontrollers-microprocessors/stm32l412kb.html
+-Tutoriel communication entre deux STM32 RX/TX : https://youtu.be/O2dg2Eo7vo8
 
-https://github.com/MYaqoobEmbedded/STM32-Tutorials/tree/master/Tutorial%2024%20-%20NRF24L01%20Radio%20Transceiver
+-Bibliothèque et codes déjà existants utilisés : https://github.com/MYaqoobEmbedded/STM32-Tutorials/tree/master/Tutorial%2024%20-%20NRF24L01%20Radio%20Transceiver
 
-Vidéo bouton stop avec code dans description : https://www.youtube.com/watch?v=2V2h64cduzE 
+-Vidéo bouton stop avec code dans description : https://www.youtube.com/watch?v=2V2h64cduzE 
 
 # Connexion Rasberry et STM32
 https://www.instructables.com/Wireless-Programming-and-Debugging-With-STM32-and-/
@@ -21,10 +19,11 @@ https://remotemcu.com/news/raspberry-pi-video-tutorial/
 https://www.framboise314.fr/faire-dialoguer-un-raspberry-et-un-arduino-via-nrf24l01/  
 
 # Raspberry pi
-programme recepteur et emetteur rasberry  
-http://electroniqueamateur.blogspot.com/2017/02/communication-entre-raspberry-pi-et.html  
+
+-Programme récepteur/émetteur Raspberry pi : http://electroniqueamateur.blogspot.com/2017/02/communication-entre-raspberry-pi-et.html  
 allumer une led  
-https://www.raspberryme.com/allumer-une-led-avec-les-broches-gpio-de-votre-raspberry-pi/  
+
+-Tutoriel allumer une LED Raspberry pi: https://www.raspberryme.com/allumer-une-led-avec-les-broches-gpio-de-votre-raspberry-pi/  
 
 # Connexion ssh et rasberry pi
 https://raspberry-lab.fr/Debuter-sur-Raspberry-Francais/Connexion-Bureau-a-distance-Raspberry-Francais/  
