@@ -28,7 +28,9 @@ Ce réseau secondaire va utiliser les composants NRF24L01 de Nordic Semiconducto
 
 # Les tâches principales:
 -> Réaliser de deux PCB (1 pour la STM32 et le module NRF24, 1 pour la raspberry pi et le module NRF24)
+
 -> Faire communiquer deux STM32 entre elles
+
 -> Faire communiquer deux Raspberry pi entre elles 
 
 
@@ -41,5 +43,7 @@ Cf GANTT
 -> "datasheet_NUCLEOL412KB" : Datasheet complète de la carte NUCLEOL412KB utilisée (STM32)
 
 -> "boutonstop.cpp" : code Bouton Stop pour la raspberry pi 
+
+-> "GANTT.md" : GANTT prévisionnel et GANTT réel
 
 
