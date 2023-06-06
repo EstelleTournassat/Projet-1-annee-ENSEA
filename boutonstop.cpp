@@ -142,18 +142,19 @@ void master()
  */
 void slave()
 {
-
-    time_t startTimer = time(nullptr);       // start a timer
-    while (time(nullptr) - startTimer < 6) { // use 6 second timeout
-        uint8_t pipe;
-        if (radio.available(&pipe)) {                        // is there a payload? get the pipe number that recieved it
-            uint8_t bytes = radio.getPayloadSize();          // get the size of the payload
-            radio.read(&payload, bytes);                     // fetch payload from FIFO
-            cout << "Received " << (unsigned int)bytes;      // print the size of the payload
-            cout << " bytes on pipe " << (unsigned int)pipe; // print the pipe number
-            cout << ": " << payload << endl;                 // print the payload's value
-            startTimer = time(nullptr);                      // reset timer
+    while(1){
+        time_t startTimer = time(nullptr);       // start a timer
+        while (time(nullptr) - startTimer < 6) { // use 6 second timeout
+            uint8_t pipe;
+            if (radio.available(&pipe)) {                        // is there a payload? get the pipe number that recieved it
+                uint8_t bytes = radio.getPayloadSize();          // get the size of the payload
+                radio.read(&payload, bytes);                     // fetch payload from FIFO
+                cout << "Received " << (unsigned int)bytes;      // print the size of the payload
+                cout << " bytes on pipe " << (unsigned int)pipe; // print the pipe number
+                cout << ": " << payload << endl;                 // print the payload's value
+                startTimer = time(nullptr);                      // reset timer
+            }
         }
+        cout << "Nothing received in 6 seconds. Leaving RX role." << endl;
     }
-    cout << "Nothing received in 6 seconds. Leaving RX role." << endl;
 }
