@@ -1,5 +1,5 @@
 /*
- * Code fait a pzartir de gettingstarted de la librairie nrf24
+ * Code fait a partir de gettingstarted de la librairie nrf24
  * See documentation at https://nRF24.github.io/RF24
  * See License information at root directory of this library
  */
@@ -32,18 +32,17 @@ using namespace std;
 RF24 radio(CE_PIN, CSN_PIN);
 
 int payload = 0;
-char* R,r; // pointeur pour savoir ce que l'on donne
-char* role = R;
-char* canal = 0;
-
-void setRole(); // prototype to set the node's role
-void master();  // prototype of the TX node's behavior
-void slave();   // prototype of the RX node's behavior
+char* role;
+char* canal;
+int Canal=0;
+void master();  // prototype of the transmetteur
+void slave();   // prototype of the receveur
+void SetRole(); //prototype pour attribuer les rôles
 
 // custom defined timer for evaluating transmission time in microseconds
 struct timespec startTimer, endTimer;
 
-int main(int argc, char* argv[])
+int main(int argc, char* const argv[])
 {
 
     // check l'installation de la radio
@@ -53,19 +52,15 @@ int main(int argc, char* argv[])
     }
     if (argc==1){}
     else if (argc==2){
-        role=argv[0];}
+        role=argv[1];}
     else if (argc==3){
-        role=argv[0];
-        canal=argv[1];}
-        
-    if (role==R||role==r){
-        cout << "role : R" << endl;}
-    else{
-        cout << "role : T" << endl;}
-    if (canal==0){
-        cout << "canal : 0" << endl;}
-    else{
-        cout << "canal : 1" << endl;}
+        role=argv[1];
+        canal=argv[2];}
+    
+    if (canal == std::string("0")){
+        Canal=0;
+    }
+    else{Canal=1;}
 
     // pour utiliser différentes adresses sur une paire de radios, nous avons besoin d'une variable
     // pour identifier de manière unique l'adresse que cette radio utilisera pour transmettre
@@ -77,8 +72,8 @@ int main(int argc, char* argv[])
     //comme une destination de périphérique d'identification
 
     // Définissez le radioNumber via le terminal au démarrage
-    string canal;
-    radioNumber = canal.length() > 0 && (uint8_t)canal[0] == 49;
+    string Canal;
+    radioNumber = Canal.length() > 0 && (uint8_t)Canal[0] == 49;
 
     // économisez sur le temps de transmission en configurant la radio pour ne transmettre que 
     // le nombre d'octets dont nous avons besoin pour transmettre un flottant
@@ -93,23 +88,18 @@ int main(int argc, char* argv[])
 
     // définir l'adresse RX du nœud TX dans un canal RX
     radio.openReadingPipe(1, address[!radioNumber]); // utile le canal 1
-
-    // le programme s'exécute
-    setRole(); // fait la fonction master() ou slave() en fonction de l'entrée
+    SetRole();
     return 0;
 }
 
-/**
- * donne le rôle de la nrf24
- */
-void setRole()
-{  
-    if (role == 'R' || input[0] == 'r'){
-        slave();}
+void SetRole(){
+    if (role == std::string("R")){
+        slave();
+    }
     else{
-        master();}       
+        master();
+    }
 }
-
 /**
  * fonction du transmetteur
  */
@@ -161,6 +151,7 @@ void slave()
             radio.read(&payload, bytes);                     // on récupère le message du FIFO
             cout << ": " << payload << endl;                 // donne le message
         }
+        cout <<"On ne recoit rien"<< endl;
     }
     radio.stopListening();
 }
