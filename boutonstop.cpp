@@ -148,7 +148,6 @@ void slave()
         while (time(nullptr) - startTimer < 6) { // use 6 second timeout
             uint8_t pipe;
             if (radio.available(&pipe)) {                        // is there a payload? get the pipe number that recieved it
-                uint8_t bytes = radio.getPayloadSize();          // get the size of the payload
                 cout << payload << endl;                 		// print the payload's value
                 startTimer = time(nullptr);                      // reset timer
             }
