@@ -132,7 +132,7 @@ void master()
             failure++;
         }
 
-        delay(2000); // ralentit la transmission de 2 seconds
+        delay(1000); // ralentit la transmission de 1 seconds
     }
     cout << failure << " Erreurs détectées. On arrête la transmission." << endl;
 } 
@@ -143,15 +143,17 @@ void master()
 void slave()
 {
 
-    radio.startListening(); // met la radio en mode RX
-    while (1) { //boucle infini
+    time_t startTimer = time(nullptr);       // start a timer
+    while (time(nullptr) - startTimer < 6) { // use 6 second timeout
         uint8_t pipe;
-        if (radio.available(&pipe)) {                        // un message? on récupère le pipe number qui l'a recu
-            uint8_t bytes = radio.getPayloadSize();          // on prends la taille du message
-            radio.read(&payload, bytes);                     // on récupère le message du FIFO
-            cout << ": " << payload << endl;                 // donne le message
+        if (radio.available(&pipe)) {                        // is there a payload? get the pipe number that recieved it
+            uint8_t bytes = radio.getPayloadSize();          // get the size of the payload
+            radio.read(&payload, bytes);                     // fetch payload from FIFO
+            cout << "Received " << (unsigned int)bytes;      // print the size of the payload
+            cout << " bytes on pipe " << (unsigned int)pipe; // print the pipe number
+            cout << ": " << payload << endl;                 // print the payload's value
+            startTimer = time(nullptr);                      // reset timer
         }
-        cout <<"On ne recoit rien"<< endl;
     }
-    radio.stopListening();
+    cout << "Nothing received in 6 seconds. Leaving RX role." << endl;
 }
