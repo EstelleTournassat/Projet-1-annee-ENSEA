@@ -117,7 +117,7 @@ void master()
 
     unsigned int failure = 0; // on regarde le nombre d'échec
     while (failure < 20) {
-        bool report = radio.write(&payload, sizeof(float)); // transmettre & sauver le message
+        bool report = radio.write(&payload, sizeof(int)); // transmettre & sauver le message
 
         if (report) {
             if (payload==1){ //message transmit
