@@ -31,7 +31,7 @@ using namespace std;
 // Generic:
 RF24 radio(CE_PIN, CSN_PIN);
 
-int payload = 0;
+int payload = 0.0;
 char* role;
 char* canal;
 int Canal=0;
@@ -112,13 +112,13 @@ void master()
     getline(cin, input);
 
     if (input[0] == 'S' || input[0] == 's'){
-        payload=1;}
-    else {payload=0;}
+        payload=1.0;}
+    else {payload=0.0;}
     cout <<payload<<endl;
 
     unsigned int failure = 0; // on regarde le nombre d'échec
     while (failure < 20) {
-        bool report = radio.write(&payload, sizeof(payload)); // transmettre & sauver le message
+        bool report = radio.write(&payload, sizeof(float)); // transmettre & sauver le message
 
         if (report) {
             if (payload==1){ //message transmit
@@ -153,6 +153,6 @@ void slave()
                 startTimer = time(nullptr);                      // reset timer
             }
         }
-        cout << "Rien recu depuis 6s." << endl;
+        cout << "Nothing received in 6 seconds." << endl;
     }
 }
