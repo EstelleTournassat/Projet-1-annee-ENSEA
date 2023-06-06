@@ -1,0 +1,18 @@
+.Raspberry_Pi_Zero_W__v1.3_ :1 ;Raspberry Pi Zero W (v1.3) Single-board Computers
+RASPBERRYPIZEROWV13
+*STM IC
+*NGS
+*PLB 1="+3.3V_1" 2="+5V_1" 3="GPIO_2/[I2C] SDA" 4="+5V_2" 5="GPIO_3/[I2C] SCL" 6="GND_1" 7="GPIO_4/GPCLK0" 8="GPIO_14/[UART] TXD0" 9="GND_2" 10="GPIO_15/[UART] RXD0" 11="GPIO_17/SPI1 CS1" 12="GPIO_18/PWM0/SPI1 CS0" 13="GPIO27" 14="GND_3" 15="GPIO_22" 16="GPIO_23" 17="+3.3V_2" 18="GPIO_24" 19="GPIO_10/SPI0_MOSI" 20="GND_4" 21="GPIO_9/SPI0_MISO" 22="GPIO_25" 23="GPIO_11/SPI0_SCLK" 24="GPIO_8/SPI0_CE1_N" 25="GND_5" 26="GPIO_7/SPI0_CE2_N" 27="DNC_1" 28="DNC_2" &
+29="GPIO5//GPCLK1" 30="GND_6" 31="GPIO6/GPCLK2" 32="GPIO12/PWM0" 33="GPIO13/PWM1" 34="GND_7" 35="GPIO19/SPI0_MISO1/PWM1" 36="GPIO16/SPI1_CS2" 37="GPIO26" 38="GPIO20/SPI0_MOSI1" 39="GND_8" 40="GPIO21/SPI0_SCLK1" 41="RUN_1" 42="RUN_2" 43="TV +" 44="TV -"
+*MXP 48
+*DFN Raspberry_Pi_Zero_W__v1.3_
+~!Manufacturer_Name (RASPBERRY-PI)
+~!Manufacturer_Part_Number (Raspberry Pi Zero W (v1.3))
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://cdn.sparkfun.com/assets/learn_tutorials/6/7/6/PiZero_1.pdf)
+~!Height (-)
+Raspberry_Pi_Zero_W__v1.3_
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 13.1!U 14.1!U 15.1!U 16.1!U 17.1!U 18.1!U 19.1!U 20.1!U 21.1!U 22.1!U 23.1!U 24.1!U 25.1!U 26.1!U 27.1!U 28.1!U 29.1!U 30.1!U 31.1!U 32.1!U 33.1!U 34.1!U 35.1!U 36.1!U 37.1!U 38.1!U 39.1!U 40.1!U 41.1!U 42.1!U 43.1!U 44.1!U 

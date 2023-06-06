@@ -1,0 +1,62 @@
+*PADS-LIBRARY-PART-TYPES-V9*
+
+Raspberry_Pi_Zero_W__v1.3_ RASPBERRYPIZEROWV13 I ANA 8 1 0 0 0
+TIMESTAMP 2023.04.18.16.01.57
+"Manufacturer_Name" RASPBERRY-PI
+"Manufacturer_Part_Number" Raspberry Pi Zero W (v1.3)
+"Mouser Part Number" 
+"Mouser Price/Stock" 
+"Arrow Part Number" 
+"Arrow Price/Stock" 
+"Description" Raspberry Pi Zero W (v1.3) Single-board Computers
+"Datasheet Link" https://cdn.sparkfun.com/assets/learn_tutorials/6/7/6/PiZero_1.pdf
+GATE 1 44 0
+Raspberry_Pi_Zero_W__v1.3_
+1 0 U +3.3V_1
+2 0 U +5V_1
+3 0 U GPIO_2/[I2C]_SDA
+4 0 U +5V_2
+5 0 U GPIO_3/[I2C]_SCL
+6 0 U GND_1
+7 0 U GPIO_4/GPCLK0
+8 0 U GPIO_14/[UART]_TXD0
+9 0 U GND_2
+10 0 U GPIO_15/[UART]_RXD0
+11 0 U GPIO_17/SPI1_CS1
+12 0 U GPIO_18/PWM0/SPI1_CS0
+13 0 U GPIO27
+14 0 U GND_3
+15 0 U GPIO_22
+16 0 U GPIO_23
+17 0 U +3.3V_2
+18 0 U GPIO_24
+19 0 U GPIO_10/SPI0_MOSI
+20 0 U GND_4
+21 0 U GPIO_9/SPI0_MISO
+22 0 U GPIO_25
+23 0 U GPIO_11/SPI0_SCLK
+24 0 U GPIO_8/SPI0_CE1_N
+25 0 U GND_5
+26 0 U GPIO_7/SPI0_CE2_N
+27 0 U DNC_1
+28 0 U DNC_2
+29 0 U GPIO5//GPCLK1
+30 0 U GND_6
+31 0 U GPIO6/GPCLK2
+32 0 U GPIO12/PWM0
+33 0 U GPIO13/PWM1
+34 0 U GND_7
+35 0 U GPIO19/SPI0_MISO1/PWM1
+36 0 U GPIO16/SPI1_CS2
+37 0 U GPIO26
+38 0 U GPIO20/SPI0_MOSI1
+39 0 U GND_8
+40 0 U GPIO21/SPI0_SCLK1
+41 0 U RUN_1
+42 0 U RUN_2
+43 0 U TV_+
+44 0 U TV_-
+
+*END*
+*REMARK* SamacSys ECAD Model
+1152180/1116832/2.50/44/4/Integrated Circuit

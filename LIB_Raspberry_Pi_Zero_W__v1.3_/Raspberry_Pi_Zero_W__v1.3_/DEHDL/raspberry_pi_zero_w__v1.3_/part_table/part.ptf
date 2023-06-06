@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'Raspberry_Pi_Zero_W__v1.3_'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "RASPBERRY-PI", "Raspberry Pi Zero W (v1.3)" (!) = "", "RASPBERRYPIZEROWV13", "Other", "", "", "", "", "Raspberry Pi Zero W (v1.3) Single-board Computers", "https://cdn.sparkfun.com/assets/learn_tutorials/6/7/6/PiZero_1.pdf"
+END_PART
+
+END.

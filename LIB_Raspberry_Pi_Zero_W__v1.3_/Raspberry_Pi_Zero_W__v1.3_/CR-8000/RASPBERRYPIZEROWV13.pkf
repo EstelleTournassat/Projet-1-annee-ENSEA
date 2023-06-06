@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "RASPBERRYPIZEROWV13"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "RASPBERRYPIZEROWV13")
+        (spec "default")
+    )
+)

@@ -1,0 +1,9 @@
+Manufacturer=RASPBERRY-PI
+PartNumber=Raspberry Pi Zero W (v1.3)
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=44
+Version=1.2
+Released=2018-03-28 13:03:31
+Downloaded=2023-04-18 16:01:57
+3D=N
