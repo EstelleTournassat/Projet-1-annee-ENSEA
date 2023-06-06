@@ -114,10 +114,11 @@ void master()
     if (input[0] == 'S' || input[0] == 's'){
         payload=1;}
     else {payload=0;}
+    cout <<payload<<endl;
 
     unsigned int failure = 0; // on regarde le nombre d'échec
     while (failure < 20) {
-        bool report = radio.write(&payload, sizeof(int)); // transmettre & sauver le message
+        bool report = radio.write(&payload, sizeof(payload)); // transmettre & sauver le message
 
         if (report) {
             if (payload==1){ //message transmit
@@ -148,13 +149,10 @@ void slave()
             uint8_t pipe;
             if (radio.available(&pipe)) {                        // is there a payload? get the pipe number that recieved it
                 uint8_t bytes = radio.getPayloadSize();          // get the size of the payload
-                radio.read(&payload, bytes);                     // fetch payload from FIFO
-                cout << "Received " << (unsigned int)bytes;      // print the size of the payload
-                cout << " bytes on pipe " << (unsigned int)pipe; // print the pipe number
-                cout << ": " << payload << endl;                 // print the payload's value
+                cout << payload << endl;                 		// print the payload's value
                 startTimer = time(nullptr);                      // reset timer
             }
         }
-        cout << "Nothing received in 6 seconds. Leaving RX role." << endl;
+        cout << "Rien recu depuis 6s." << endl;
     }
 }
