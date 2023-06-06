@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\inves\Desktop\Ensea1A\Projet\CoHoMa\kikad_PCB\connecteurs\connecteurs.kicad_sch</source>
+    <date>11/05/2023 23:34:58</date>
+    <tool>Eeschema (7.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Connecteurs_seuls</title>
+        <company>ENSEA</company>
+        <rev>1.0</rev>
+        <date>2023-04-18</date>
+        <source>connecteurs.kicad_sch</source>
+        <comment number="1" value="Alphonse RIVOIRE"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="connecteurs.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>95bd41ba-fd58-464c-b208-ab41dd9f389d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="connecteurs.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>079ebcb3-de6a-4408-ab5f-cbed98f6b739</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="connecteurs.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f0a342b-a253-4441-bebd-d16435a03819</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="connecteurs.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b3d0b2d-f88c-40a2-bfd9-9e90633674a6</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="connecteurs.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66a27cc2-4919-48a5-88cd-ac968abf8e8e</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad</value>
+      <footprint>MountingHole:MountingHole_2.7mm_M2.5_DIN965_Pad</footprint>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="connecteurs.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7fadafc-a784-4bbc-96d0-08fdfd7933fd</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>Raspberry_Pi_Zero_W__v1.3_</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical</footprint>
+      <datasheet>https://cdn.sparkfun.com/assets/learn_tutorials/6/7/6/PiZero_1.pdf</datasheet>
+      <fields>
+        <field name="Manufacturer_Name">RASPBERRY-PI</field>
+        <field name="Manufacturer_Part_Number">Raspberry Pi Zero W (v1.3)</field>
+      </fields>
+      <libsource lib="Raspberry_pi_zero_1v1_2x20" part="Raspberry_Pi_Zero_W__v1.3_" description="Raspberry Pi Zero W (v1.3) Single-board Computers"/>
+      <property name="Height" value=""/>
+      <property name="Manufacturer_Name" value="RASPBERRY-PI"/>
+      <property name="Manufacturer_Part_Number" value="Raspberry Pi Zero W (v1.3)"/>
+      <property name="Mouser Part Number" value=""/>
+      <property name="Mouser Price/Stock" value=""/>
+      <property name="Arrow Part Number" value=""/>
+      <property name="Arrow Price/Stock" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="connecteurs.kicad_sch"/>
+      <property name="ki_description" value="Raspberry Pi Zero W (v1.3) Single-board Computers"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77b36de0-691a-4723-ba1e-960d1d026928</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_01x02</value>
+      <footprint>Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="connecteurs.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0897bbe-042e-48b5-9552-1d7926bb6510</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>NRF24L01_Breakout</value>
+      <footprint>RF_Module:nRF24L01_Breakout</footprint>
+      <datasheet>http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf</datasheet>
+      <libsource lib="RF" part="NRF24L01_Breakout" description="Ultra low power 2.4GHz RF Transceiver, Carrier PCB"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="connecteurs.kicad_sch"/>
+      <property name="ki_description" value="Ultra low power 2.4GHz RF Transceiver, Carrier PCB"/>
+      <property name="ki_keywords" value="Low Power RF Transceiver breakout carrier"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9085b322-de15-4b8d-ad7b-4724f8316144</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>BU33SD5WG-TR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/22053C.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="MCP1802x-xx02xOT" description="150mA, Tiny CMOS LDO With Shutdown, Fixed Voltage, SOT-23-5"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="connecteurs.kicad_sch"/>
+      <property name="ki_description" value="150mA, Tiny CMOS LDO With Shutdown, Fixed Voltage, SOT-23-5"/>
+      <property name="ki_keywords" value="LDO Linear Voltage Regulator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38e89593-0762-42d7-9bc0-b0b616ec05c5</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RF" part="NRF24L01_Breakout">
+      <description>Ultra low power 2.4GHz RF Transceiver, Carrier PCB</description>
+      <docs>http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf</docs>
+      <footprints>
+        <fp>nRF24L01*Breakout*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NRF24L01_Breakout</field>
+        <field name="Footprint">RF_Module:nRF24L01_Breakout</field>
+        <field name="Datasheet">http://www.nordicsemi.com/eng/content/download/2730/34105/file/nRF24L01_Product_Specification_v2_0.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VCC" type="power_in"/>
+        <pin num="3" name="CE" type="input"/>
+        <pin num="4" name="~{CSN}" type="input"/>
+        <pin num="5" name="SCK" type="input"/>
+        <pin num="6" name="MOSI" type="input"/>
+        <pin num="7" name="MISO" type="output"/>
+        <pin num="8" name="IRQ" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Raspberry_pi_zero_1v1_2x20" part="Raspberry_Pi_Zero_W__v1.3_">
+      <description>Raspberry Pi Zero W (v1.3) Single-board Computers</description>
+      <docs>https://cdn.sparkfun.com/assets/learn_tutorials/6/7/6/PiZero_1.pdf</docs>
+      <fields>
+        <field name="Reference">IC1</field>
+        <field name="Value">Raspberry_Pi_Zero_W__v1.3_</field>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical</field>
+        <field name="Datasheet">https://cdn.sparkfun.com/assets/learn_tutorials/6/7/6/PiZero_1.pdf</field>
+        <field name="Manufacturer_Name">RASPBERRY-PI</field>
+        <field name="Manufacturer_Part_Number">Raspberry Pi Zero W (v1.3)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+3.3V_1" type="passive"/>
+        <pin num="2" name="+5V_1" type="passive"/>
+        <pin num="3" name="GPIO_2/[I2C]_SDA" type="passive"/>
+        <pin num="4" name="+5V_2" type="passive"/>
+        <pin num="5" name="GPIO_3/[I2C]_SCL" type="passive"/>
+        <pin num="6" name="GND_1" type="passive"/>
+        <pin num="7" name="GPIO_4/GPCLK0" type="passive"/>
+        <pin num="8" name="GPIO_14/[UART]_TXD0" type="passive"/>
+        <pin num="9" name="GND_2" type="passive"/>
+        <pin num="10" name="GPIO_15/[UART]_RXD0" type="passive"/>
+        <pin num="11" name="GPIO_17/SPI1_CS1" type="passive"/>
+        <pin num="12" name="GPIO_18/PWM0/SPI1_CS0" type="passive"/>
+        <pin num="13" name="GPIO27" type="passive"/>
+        <pin num="14" name="GND_3" type="passive"/>
+        <pin num="15" name="GPIO_22" type="passive"/>
+        <pin num="16" name="GPIO_23" type="passive"/>
+        <pin num="17" name="+3.3V_2" type="passive"/>
+        <pin num="18" name="GPIO_24" type="passive"/>
+        <pin num="19" name="GPIO_10/SPI0_MOSI" type="passive"/>
+        <pin num="20" name="GND_4" type="passive"/>
+        <pin num="21" name="GPIO_9/SPI0_MISO" type="passive"/>
+        <pin num="22" name="GPIO_25" type="passive"/>
+        <pin num="23" name="GPIO_11/SPI0_SCLK" type="passive"/>
+        <pin num="24" name="GPIO_8/SPI0_CE1_N" type="passive"/>
+        <pin num="25" name="GND_5" type="passive"/>
+        <pin num="26" name="GPIO_7/SPI0_CE2_N" type="passive"/>
+        <pin num="27" name="DNC_1" type="passive"/>
+        <pin num="28" name="DNC_2" type="passive"/>
+        <pin num="29" name="GPIO5//GPCLK1" type="passive"/>
+        <pin num="30" name="GND_6" type="passive"/>
+        <pin num="31" name="GPIO6/GPCLK2" type="passive"/>
+        <pin num="32" name="GPIO12/PWM0" type="passive"/>
+        <pin num="33" name="GPIO13/PWM1" type="passive"/>
+        <pin num="34" name="GND_7" type="passive"/>
+        <pin num="35" name="GPIO19/SPI0_MISO1/PWM1" type="passive"/>
+        <pin num="36" name="GPIO16/SPI1_CS2" type="passive"/>
+        <pin num="37" name="GPIO26" type="passive"/>
+        <pin num="38" name="GPIO20/SPI0_MOSI1" type="passive"/>
+        <pin num="39" name="GND_8" type="passive"/>
+        <pin num="40" name="GPIO21/SPI0_SCLK1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="MCP1802x-xx02xOT">
+      <description>150mA, Tiny CMOS LDO With Shutdown, Fixed Voltage, SOT-23-5</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/22053C.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MCP1802x-xx02xOT</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/22053C.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="~{SHDN}" type="input"/>
+        <pin num="4" name="NC" type="no_connect"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="RF">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/RF.kicad_sym</uri>
+    </library>
+    <library logical="Raspberry_pi_zero_1v1_2x20">
+      <uri>C:\Users\inves\Desktop\Ensea1A\Projet\CoHoMa\kikad_PCB\connecteurs/Raspberry_pi_zero_1v1_2x20.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3.3V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="+3.3V_1" pintype="passive"/>
+      <node ref="IC1" pin="17" pinfunction="+3.3V_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="VOUT" pintype="power_out"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="+5V_1" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="+5V_2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U2" pin="3" pinfunction="~{SHDN}" pintype="input"/>
+    </net>
+    <net code="3" name="CE">
+      <node ref="IC1" pin="15" pinfunction="GPIO_22" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="CE" pintype="input"/>
+    </net>
+    <net code="4" name="CSN">
+      <node ref="IC1" pin="24" pinfunction="GPIO_8/SPI0_CE1_N" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="~{CSN}" pintype="input"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="IC1" pin="14" pinfunction="GND_3" pintype="passive"/>
+      <node ref="IC1" pin="20" pinfunction="GND_4" pintype="passive"/>
+      <node ref="IC1" pin="25" pinfunction="GND_5" pintype="passive"/>
+      <node ref="IC1" pin="30" pinfunction="GND_6" pintype="passive"/>
+      <node ref="IC1" pin="34" pinfunction="GND_7" pintype="passive"/>
+      <node ref="IC1" pin="39" pinfunction="GND_8" pintype="passive"/>
+      <node ref="IC1" pin="6" pinfunction="GND_1" pintype="passive"/>
+      <node ref="IC1" pin="9" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="6" name="MISO">
+      <node ref="IC1" pin="21" pinfunction="GPIO_9/SPI0_MISO" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="MISO" pintype="output"/>
+    </net>
+    <net code="7" name="MOSI">
+      <node ref="IC1" pin="19" pinfunction="GPIO_10/SPI0_MOSI" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="MOSI" pintype="input"/>
+    </net>
+    <net code="8" name="SCK">
+      <node ref="IC1" pin="23" pinfunction="GPIO_11/SPI0_SCLK" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="9" name="unconnected-(IC1-DNC_1-Pad27)">
+      <node ref="IC1" pin="27" pinfunction="DNC_1" pintype="passive+no_connect"/>
+    </net>
+    <net code="10" name="unconnected-(IC1-DNC_2-Pad28)">
+      <node ref="IC1" pin="28" pinfunction="DNC_2" pintype="passive+no_connect"/>
+    </net>
+    <net code="11" name="unconnected-(IC1-GPIO5{slash}{slash}GPCLK1-Pad29)">
+      <node ref="IC1" pin="29" pinfunction="GPIO5//GPCLK1" pintype="passive+no_connect"/>
+    </net>
+    <net code="12" name="unconnected-(IC1-GPIO6{slash}GPCLK2-Pad31)">
+      <node ref="IC1" pin="31" pinfunction="GPIO6/GPCLK2" pintype="passive+no_connect"/>
+    </net>
+    <net code="13" name="unconnected-(IC1-GPIO12{slash}PWM0-Pad32)">
+      <node ref="IC1" pin="32" pinfunction="GPIO12/PWM0" pintype="passive+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(IC1-GPIO13{slash}PWM1-Pad33)">
+      <node ref="IC1" pin="33" pinfunction="GPIO13/PWM1" pintype="passive+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(IC1-GPIO16{slash}SPI1_CS2-Pad36)">
+      <node ref="IC1" pin="36" pinfunction="GPIO16/SPI1_CS2" pintype="passive+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(IC1-GPIO19{slash}SPI0_MISO1{slash}PWM1-Pad35)">
+      <node ref="IC1" pin="35" pinfunction="GPIO19/SPI0_MISO1/PWM1" pintype="passive+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(IC1-GPIO20{slash}SPI0_MOSI1-Pad38)">
+      <node ref="IC1" pin="38" pinfunction="GPIO20/SPI0_MOSI1" pintype="passive+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(IC1-GPIO21{slash}SPI0_SCLK1-Pad40)">
+      <node ref="IC1" pin="40" pinfunction="GPIO21/SPI0_SCLK1" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(IC1-GPIO26-Pad37)">
+      <node ref="IC1" pin="37" pinfunction="GPIO26" pintype="passive+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(IC1-GPIO27-Pad13)">
+      <node ref="IC1" pin="13" pinfunction="GPIO27" pintype="passive+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(IC1-GPIO_2{slash}[I2C]_SDA-Pad3)">
+      <node ref="IC1" pin="3" pinfunction="GPIO_2/[I2C]_SDA" pintype="passive+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(IC1-GPIO_3{slash}[I2C]_SCL-Pad5)">
+      <node ref="IC1" pin="5" pinfunction="GPIO_3/[I2C]_SCL" pintype="passive+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(IC1-GPIO_4{slash}GPCLK0-Pad7)">
+      <node ref="IC1" pin="7" pinfunction="GPIO_4/GPCLK0" pintype="passive+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(IC1-GPIO_7{slash}SPI0_CE2_N-Pad26)">
+      <node ref="IC1" pin="26" pinfunction="GPIO_7/SPI0_CE2_N" pintype="passive+no_connect"/>
+    </net>
+    <net code="25" name="unconnected-(IC1-GPIO_14{slash}[UART]_TXD0-Pad8)">
+      <node ref="IC1" pin="8" pinfunction="GPIO_14/[UART]_TXD0" pintype="passive+no_connect"/>
+    </net>
+    <net code="26" name="unconnected-(IC1-GPIO_15{slash}[UART]_RXD0-Pad10)">
+      <node ref="IC1" pin="10" pinfunction="GPIO_15/[UART]_RXD0" pintype="passive+no_connect"/>
+    </net>
+    <net code="27" name="unconnected-(IC1-GPIO_17{slash}SPI1_CS1-Pad11)">
+      <node ref="IC1" pin="11" pinfunction="GPIO_17/SPI1_CS1" pintype="passive+no_connect"/>
+    </net>
+    <net code="28" name="unconnected-(IC1-GPIO_18{slash}PWM0{slash}SPI1_CS0-Pad12)">
+      <node ref="IC1" pin="12" pinfunction="GPIO_18/PWM0/SPI1_CS0" pintype="passive+no_connect"/>
+    </net>
+    <net code="29" name="unconnected-(IC1-GPIO_23-Pad16)">
+      <node ref="IC1" pin="16" pinfunction="GPIO_23" pintype="passive+no_connect"/>
+    </net>
+    <net code="30" name="unconnected-(IC1-GPIO_24-Pad18)">
+      <node ref="IC1" pin="18" pinfunction="GPIO_24" pintype="passive+no_connect"/>
+    </net>
+    <net code="31" name="unconnected-(IC1-GPIO_25-Pad22)">
+      <node ref="IC1" pin="22" pinfunction="GPIO_25" pintype="passive+no_connect"/>
+    </net>
+    <net code="32" name="unconnected-(U1-IRQ-Pad8)">
+      <node ref="U1" pin="8" pinfunction="IRQ" pintype="output+no_connect"/>
+    </net>
+    <net code="33" name="unconnected-(U2-NC-Pad4)">
+      <node ref="U2" pin="4" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
